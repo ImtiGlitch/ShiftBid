@@ -9,16 +9,21 @@
 <body class="flex items-center justify-center min-h-screen bg-gray-100">
 
   <div class="flex flex-col items-center space-y-2">
-    <!-- Tile with centered image -->
-    <div class="w-32 h-32 bg-white rounded-2xl shadow-md flex items-center justify-center">
+    <!-- Clickable Tile -->
+    <a 
+      href="https://ukg-web.cloudapper.com/3436699400000016/app/d5a50a29-8ce1-4a5d-b72a-6c27676b4beb/dashboard" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="w-32 h-32 bg-white rounded-2xl shadow-md flex items-center justify-center hover:shadow-lg transition-shadow duration-300"
+    >
       <img 
         src="https://s3.amazonaws.com/cloudapper-icon/05c92973-9ab9-4a95-837f-a63e6a98ca2a_019-24-hours-1.png" 
         alt="ShiftBid Icon" 
         class="w-16 h-16 object-contain"
       />
-    </div>
-    
-    <!-- Label below the tile -->
+    </a>
+
+    <!-- Label -->
     <div class="text-sm font-medium text-gray-800">
       ShiftBid
     </div>
@@ -26,3 +31,4 @@
 
 </body>
 </html>
+
